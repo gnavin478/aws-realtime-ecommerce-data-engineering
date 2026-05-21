@@ -25,3 +25,4 @@ airflow/logs/
 # Local temporary files
 temp/
 tmp/
+*.csv
