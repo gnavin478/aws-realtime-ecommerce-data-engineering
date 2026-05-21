@@ -1,0 +1,10 @@
+AWS_REGION = "ap-south-1"
+S3_BUCKET_NAME = "aws-realtime-ecommerce-pipeline"
+
+RAW_ORDERS_PREFIX = "raw/orders/"
+RAW_PAYMENTS_PREFIX = "raw/payments/"
+RAW_INVENTORY_PREFIX = "raw/inventory/"
+RAW_DELIVERY_PREFIX = "raw/delivery/"
+RAW_CART_PREFIX = "raw/cart/"
+RAW_CUSTOMER_ACTIVITY_PREFIX = "raw/customer_activity/"
+RAW_PRODUCT_VIEWS_PREFIX = "raw/product_views/"

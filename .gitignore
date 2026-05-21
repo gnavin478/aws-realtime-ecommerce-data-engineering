@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+# Python cache
+__pycache__/
+*.pyc
+# Logs
+logs/
+# Environment files
+.env
+# VS Code settings
+.vscode/
+# OS files
+.DS_Store
+Thumbs.db
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+# Airflow logs
+airflow/logs/
+# Pytest cache
+.pytest_cache/
+# AWS credentials
+.aws/
+# Local temporary files
+temp/
+tmp/
