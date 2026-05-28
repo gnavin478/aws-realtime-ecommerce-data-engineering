@@ -1,0 +1,7 @@
+{
+  "crawler_name": "ecommerce-gold-crawler",
+  "s3_path": "s3://aws-realtime-ecommerce-pipeline/gold/",
+  "database_name": "ecommerce_gold_db",
+  "file_format": "parquet",
+  "purpose": "Scan analytical gold layer datasets for Athena reporting"
+}

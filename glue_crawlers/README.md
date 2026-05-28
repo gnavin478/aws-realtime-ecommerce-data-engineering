@@ -1,0 +1,1 @@
+This folder contains AWS Glue crawler configurations used for scanning S3 data lake layers and creating Athena-queryable metadata tables.

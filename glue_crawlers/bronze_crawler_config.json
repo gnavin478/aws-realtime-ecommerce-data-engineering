@@ -1,0 +1,7 @@
+{
+  "crawler_name": "ecommerce-bronze-crawler",
+  "s3_path": "s3://aws-realtime-ecommerce-pipeline/bronze/",
+  "database_name": "ecommerce_bronze_db",
+  "file_format": "json",
+  "purpose": "Scan bronze processed ecommerce event data"
+}

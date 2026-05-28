@@ -1,0 +1,7 @@
+{
+  "crawler_name": "ecommerce-silver-crawler",
+  "s3_path": "s3://aws-realtime-ecommerce-pipeline/silver/",
+  "database_name": "ecommerce_silver_db",
+  "file_format": "parquet",
+  "purpose": "Scan cleaned silver layer business-ready parquet datasets"
+}

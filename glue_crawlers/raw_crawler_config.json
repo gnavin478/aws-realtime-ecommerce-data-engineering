@@ -1,0 +1,7 @@
+{
+  "crawler_name": "ecommerce-raw-crawler",
+  "s3_path": "s3://aws-realtime-ecommerce-pipeline/raw/",
+  "database_name": "ecommerce_raw_db",
+  "file_format": "json",
+  "purpose": "Scan raw ecommerce event files from S3 raw layer"
+}
