@@ -2,6 +2,7 @@
 
 ## High-Level Architecture
 
+```mermaid
 flowchart LR
     A[Python Producers] --> B[S3 Raw Layer]
     B --> C[S3 Event Trigger]
@@ -16,11 +17,13 @@ flowchart LR
     K --> L[Gold Crawler]
     L --> M[Athena Analytics]
     M --> N[SQL Reports / Dashboard]
+```
 
 ---
 
 # Medallion Architecture
 
+```mermaid
 flowchart TD
     A[Raw Layer - Original JSON Events] --> B[Bronze Layer - Lambda Processed JSON]
     B --> C[Silver Layer - Cleaned Parquet Data]
@@ -33,11 +36,13 @@ flowchart TD
     D --> I[sales_summary]
     D --> J[inventory_summary]
     D --> K[top_products_analytics]
+```
 
 ---
 
 # Workflow Orchestration
 
+```mermaid
 flowchart TD
     A[start-silver-trigger] --> B[Silver ETL Jobs]
     B --> C[start-gold-trigger]
@@ -45,14 +50,17 @@ flowchart TD
     D --> E[start-gold-crawler-trigger]
     E --> F[ecommerce-gold-crawler]
     F --> G[Athena Tables Ready]
+```
 
 ---
 
 # Monitoring Architecture
 
+```mermaid
 flowchart LR
     A[Glue Job / Lambda] --> B[CloudWatch Logs]
     A --> C[CloudWatch Metrics]
     C --> D[CloudWatch Alarm]
     D --> E[SNS Topic]
     E --> F[Email Notification]
+```
