@@ -1,0 +1,21 @@
+[
+  {
+    "event_id": "EVT5001",
+    "event_type": "CART_UPDATED",
+    "event_time": "2026-05-21T13:00:00",
+    "cart_id": "CART1001",
+    "customer_id": "CUST1001",
+    "customer_name": "Rahul Sharma",
+    "email": "rahul@gmail.com",
+    "product_id": "PROD101",
+    "product_name": "iPhone 15",
+    "cart_action": "ADD_TO_CART",
+    "quantity": 1,
+    "price": 79999,
+    "total_amount": 79999,
+    "device_type": "Mobile",
+    "browser": "Chrome",
+    "session_id": "SESSION123",
+    "is_logged_in": true
+  }
+]

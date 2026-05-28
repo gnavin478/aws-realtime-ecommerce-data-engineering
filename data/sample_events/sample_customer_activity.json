@@ -1,0 +1,22 @@
+[
+  {
+    "event_id": "EVT6001",
+    "event_type": "CUSTOMER_ACTIVITY",
+    "event_time": "2026-05-21T14:00:00",
+    "activity_id": "ACT1001",
+    "customer_id": "CUST1001",
+    "customer_name": "Rahul Sharma",
+    "email": "rahul@gmail.com",
+    "activity_type": "SEARCH",
+    "session_id": "SESSION123",
+    "search_keyword": "iPhone 15",
+    "page_url": "/products/iphone15",
+    "referrer_url": "google.com",
+    "device_type": "Mobile",
+    "browser": "Chrome",
+    "ip_address": "192.168.1.1",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India"
+  }
+]

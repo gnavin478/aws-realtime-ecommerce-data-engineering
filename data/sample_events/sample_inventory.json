@@ -1,0 +1,17 @@
+[
+  {
+    "event_id": "EVT3001",
+    "event_type": "INVENTORY_UPDATED",
+    "event_time": "2026-05-21T11:00:00",
+    "inventory_id": "INV1001",
+    "product_id": "PROD101",
+    "product_name": "iPhone 15",
+    "warehouse_id": "WH001",
+    "warehouse_name": "Bangalore Warehouse",
+    "current_stock": 120,
+    "reorder_level": 20,
+    "stock_status": "IN_STOCK",
+    "quantity_changed": -1,
+    "change_reason": "ORDER_PLACED"
+  }
+]

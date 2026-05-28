@@ -1,0 +1,22 @@
+[
+  {
+    "event_id": "EVT2001",
+    "event_type": "PAYMENT_COMPLETED",
+    "event_time": "2026-05-21T10:20:00",
+    "payment_id": "PAY1001",
+    "order_id": "ORD5001",
+    "customer_id": "CUST1001",
+    "customer_name": "Rahul Sharma",
+    "email": "rahul@gmail.com",
+    "payment_method": "Credit Card",
+    "payment_status": "SUCCESS",
+    "payment_amount": 79999,
+    "currency": "INR",
+    "bank_name": "HDFC Bank",
+    "transaction_reference": "TXN123456",
+    "failure_reason": "",
+    "payment_gateway": "Razorpay",
+    "device_type": "Mobile",
+    "ip_address": "192.168.1.1"
+  }
+]

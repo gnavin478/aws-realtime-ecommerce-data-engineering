@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "EVT4001",
+    "event_type": "DELIVERY_ASSIGNED",
+    "event_time": "2026-05-21T12:00:00",
+    "delivery_id": "DEL1001",
+    "order_id": "ORD5001",
+    "customer_id": "CUST1001",
+    "customer_name": "Rahul Sharma",
+    "phone_number": "9876543210",
+    "delivery_status": "SHIPPED",
+    "delivery_partner": "Delhivery",
+    "tracking_number": "TRK123456",
+    "shipping_address": "MG Road",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India",
+    "pincode": "560001",
+    "estimated_delivery_date": "2026-05-24",
+    "delivery_charges": 50,
+    "is_express_delivery": true
+  }
+]
