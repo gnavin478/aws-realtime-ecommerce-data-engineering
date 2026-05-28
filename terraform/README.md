@@ -1,0 +1,1 @@
+AWS Step Functions orchestration can be integrated in future for event-driven serverless workflow automation.
